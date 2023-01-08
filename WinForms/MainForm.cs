@@ -3,9 +3,9 @@ using WinForms.Views;
 
 namespace WinForms
 {
-    public partial class Form1 : Form, IPerson
+    public partial class MainForm : Form, IPerson
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
