@@ -18,7 +18,6 @@ namespace WinForms
             //MessageBox.Show($"Hello {firstNameText.Text} {lastNameText.Tex}"); // without MVP
             PersonPresenter personPresenter = new PersonPresenter(this);
             MessageBox.Show(personPresenter.SayFullName());
-
         }
     }
 }
