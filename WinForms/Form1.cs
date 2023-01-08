@@ -15,7 +15,7 @@ namespace WinForms
 
         private void sayHelloButton_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show($"Hello {FirstName} {LastName}"); // without MVP
+            //MessageBox.Show($"Hello {firstNameText.Text} {lastNameText.Tex}"); // without MVP
             PersonPresenter personPresenter = new PersonPresenter(this);
             MessageBox.Show(personPresenter.SayFullName());
 
